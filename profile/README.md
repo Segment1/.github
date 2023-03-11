@@ -1,4 +1,6 @@
-# SegmentONE git
+<img src="https://user-images.githubusercontent.com/43730879/224508949-ac7ca3b4-21b3-436e-9d47-86af87ced014.svg" width="150">
+
+# SegmentONE
 
 ## Naming scheme
 
