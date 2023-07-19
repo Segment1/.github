@@ -29,14 +29,17 @@ Pro vývoj jednotlivých features, je vždy vytvořena samostatná branch podle 
 ## Commit scheme
 Pro tvorbu commitů platí následující pravidla, která jsou popsána v tabulce v sekci *Naming scheme*. Každý commit by měl mít popisek, který začíná prefixem, který specifikuje typ commitu. Prefixy pro commit typy jsou následující:
 
-- `feat/`: Nová funkcionalita nebo vlastnost
-- `fix/`: Oprava chyby nebo bugu
-- `refactor/`: Úprava kódu bez změny v chování aplikace 
-- `docs/`: Změna v dokumentaci
+| Commit name | Účel |
+| -- | -- |
+| feat | Nová funkcionalita nebo vlastnost |
+| fix | Oprava chyby nebo bugu |
+| refactor | Úprava kódu bez změny v chování aplikace |
+| docs | Změna v dokumentaci |
 
 Následně následuje samotný popis změny v kódu, který by měl být stručný a jasně popisovat provedenou změnu.
 
 ## Pull requests (PRs)
+
 ### Vytváření PR
 Pull Requesty slouží k tomu, aby autor feature mohl odeslat svou práci na review a umožnil tak kontrolu vývojových branchí a zajištění funkčnosti celého projektu. Každý Pull Request vytváří autor feature a v popisu uvádí stručné shrnutí změn, které feature obsahuje, a pokud je to relevantní, také jak se tyto změny projeví v celkové funkčnosti projektu. Na závěr autor přidává team leadera jako reviewera.
 
